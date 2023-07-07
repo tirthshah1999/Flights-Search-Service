@@ -64,7 +64,7 @@ const update = async (req, res) => {
 
 const destroy = async (req, res) => {
   try {
-    const city = await cityService.destroyCity(req.params.id);
+    const city = await cityService.deleteCity(req.params.id);
     return res.status(200).json({
       data: city,
       success: true,
@@ -80,4 +80,11 @@ const destroy = async (req, res) => {
       err: error,
     });
   }
+};
+
+module.exports = {
+  create,
+  update,
+  get,
+  destroy,
 };
