@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "root",
-    "password": "hanuman18",
-    "database": "FLIGHTS_SEARCH_DB_DEV",
+    "username": "YOUR_USERNAME",
+    "password": "YOUR_PASSWORD",
+    "database": "YOUR_DB_NAME",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
